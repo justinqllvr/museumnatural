@@ -2,7 +2,7 @@
 
 <h1>Themes</h1>
 
-<table>
+<table class="">
   <thead>
     <tr>
       <th>Title</th>
@@ -11,7 +11,7 @@
     </tr>
   </thead>
 
-  <tbody  class = "container">
+  <tbody>
     <% @themes.each do |theme| %>
       <tr>
         <td><%= link_to theme.title, theme %></td>
